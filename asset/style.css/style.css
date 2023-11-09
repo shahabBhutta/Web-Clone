@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    /* background-color: darkgrey; */
+}
+
+/*  ******************* */
+/*  ******************* */
+/*  **** Header  **** */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid #b0a5a5;
+
+}
+
+.logo img {
+    width: 57px;
+    margin-left: 31px;
+}
+
+header nav {
+
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+
+}
+
+header nav a {
+    margin: 10px;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 35px 0px;
+}
+
+header nav a:hover {
+    border-bottom: 4px solid #ff3f6c;
+}
+
+header nav a sup {
+    text-align: left;
+    color: #ff3f6c
+}
+
+/*  **** Header  End **** */
+/*  ******************** */
+/*  ******************** */
+
+/* ******************* */
+/* ******************* */
+
+/*  ******************** */
+/*  ******************** */
+/*  **** Search-bar **** */
+
+.search-bar {
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    height: 35px;
+    background: #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+    outline: 0;
+    color: #696e79;
+
+}
+
+.search-bar i {
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 40px;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    cursor: pointer;
+    color: #696e79;
+
+}
+
+/*  **** search-bar End**** */
+/*  ********************** */
+/*  ********************* */
+/* ******************* */
+/* ******************* */
+/*  ************************ */
+/*  ************************ */
+/*  **** Action-section **** */
+
+.action {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 0;
+    height: 40px;
+    margin: 0px 30px 0 10px;
+    min-width: 200px;
+    text-transform: capitalize;
+
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.action-container i {
+    margin-bottom: 12px;
+}
+
+.action-container .action-name {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/*  **** Action-section End**** */
+/*  ************************ */
+/*  ********************* */
+
+/* ******************* */
+/* ******************* */
+
+/*  ************************ */
+/*  ************************ */
+/*  **** Main-section **** */
+
+.hero a img {
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.categor-list-img {
+    margin: 2.5%;
+    padding: 3px;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+
+.spacial-categore-img a {
+    margin: 5px 9px;
+}

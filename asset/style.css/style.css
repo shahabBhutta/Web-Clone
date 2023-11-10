@@ -8,6 +8,41 @@
     /* background-color: darkgrey; */
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.full {
+    width: 100%;
+}
+
+.half_sec {
+    width: 50%;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.container {
+    max-width: 1170px;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+
 /*  ******************* */
 /*  ******************* */
 /*  **** Header  **** */
@@ -167,4 +202,157 @@ header nav a sup {
 
 .spacial-categore-img a {
     margin: 5px 9px;
+}
+
+/*  **** Main-section End**** */
+/*  ************************ */
+/*  ********************* */
+
+
+
+/*  ************************ */
+/*  ************************ */
+/*  **** fotter-section **** */
+.footer-main-sec {
+
+    background-image: url(../img/bgdark.jpg);
+    padding: 65px 0px;
+    overflow: hidden;
+}
+
+.footer-main-sec>p {
+    color: #fff;
+    margin-top: 35%;
+    text-align: center;
+    font-size: 400;
+    text-transform: capitalize;
+
+}
+
+.footer-main-sec>p i {
+    padding: 0px 10px;
+}
+
+.footer-main-sec>p span {
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.fotter-contant-sec {
+    width: 50%;
+    display: flex;
+}
+
+.footer-inner-sec {
+    width: 50%;
+    text-align: justify;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.footer-inner-sec>h1 {
+    margin-bottom: 10px;
+}
+
+.footter-inner-sec-link {
+    width: 50%;
+    margin-left: 5%;
+    color: #fff;
+}
+
+.footter-inner-sec-link>h3 {
+    margin-bottom: 20px;
+}
+
+.footter-inner-sec-link ul {
+    color: #fff;
+    list-style: none;
+}
+
+.footter-inner-sec-link ul li {
+
+    margin: 20px;
+    color: #fff;
+
+}
+
+.footter-inner-sec-link i {
+    padding-right: 10px;
+}
+
+.footter-inner-sec-link ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* End left side done  */
+
+/* right section */
+.footer-contact-sec {
+    width: 50%;
+    display: flex;
+    color: #fff;
+}
+
+.footer-contact-gallery-sec {
+    width: 50%;
+
+
+}
+
+.footer-contact-gallery-sec>h3 {
+    margin-bottom: 20px;
+
+}
+
+.footer-contact-gallery-sec img {
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-contact {
+    width: 50%;
+}
+
+.footer-contact>h3 {
+    margin-bottom: 20px;
+    padding-left: 55px;
+
+}
+
+.head-office {
+    margin-bottom: 30px;
+}
+
+.head-office>h4 {
+    text-align: left;
+    margin-left: 30px;
+    color: salmon;
+}
+
+.head-office i {
+    padding-right: 15px;
+}
+
+.head-office>a {
+    display: block;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cell {
+    margin-bottom: 30px;
+}
+
+/*End footer css */
+
+.copy {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
 }

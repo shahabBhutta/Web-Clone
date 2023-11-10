@@ -77,6 +77,7 @@ header nav a {
     font-weight: 700;
     text-transform: uppercase;
     padding: 35px 0px;
+    cursor: pointer;
 }
 
 header nav a:hover {
@@ -117,7 +118,7 @@ header nav a sup {
     background: #f5f5f6;
     outline: 0;
     color: #696e79;
-
+    
 }
 
 .search-bar i {
@@ -153,6 +154,7 @@ header nav a sup {
     margin: 0px 30px 0 10px;
     min-width: 200px;
     text-transform: capitalize;
+    cursor: pointer;
 
 }
 
@@ -166,10 +168,19 @@ header nav a sup {
 .action-container i {
     margin-bottom: 12px;
 }
-
+.action-container i:hover{
+    color: rgb(26, 230, 26);
+    font-size: 30px;
+}
 .action-container .action-name {
     font-size: 15px;
     font-weight: 700;
+    box-sizing: content-box;
+}
+.action-container .action-name:hover{
+    color: rgb(80, 87, 226);
+    font-size: 20px;
+    box-sizing: content-box;
 }
 
 /*  **** Action-section End**** */
@@ -356,3 +367,8 @@ header nav a sup {
     text-align: center;
     margin-top: 50px;
 }
+
+
+/*  ************************ */
+/*  ************************ */
+/*  **** fotter-section End **** */

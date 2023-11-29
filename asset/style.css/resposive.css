@@ -1,0 +1,30 @@
+@media screen and (min-width:499px) and (max-width:870px) {
+
+    header nav {
+
+       display: none;
+    
+    }
+
+    .footer-contact-gallery-sec {
+        /* width: 20%; */
+        display: none;
+    
+    
+    }
+    .categor-list-img {
+        width: 100%;
+    
+    }
+    .footer-contact {
+        width: 100%;
+    }
+    .footer-main-sec > p {
+
+        margin-top: 68%;
+    }
+    .footter-inner-sec-link {
+        margin-left: 3%;
+    }
+
+}
